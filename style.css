@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+nav {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #da107c;
+}
+.first-container{
+    background: url(src/background.jpeg);
+    
+}
+.picture-container{
+    display: flex;
+}
+.right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.content h1{
+    font-weight: 500;
+}
+
+.course-list ul{
+    display: flex;
+   
+}
+.course-list ul li{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    border-right: 2px solid;
+    padding: 0px 10px;
+}
+.course-list ul li:last-child{
+    border: none;
+}
+.course-list ul li a{
+    text-decoration: none;
+}
+.bottom-container ul{
+    display: flex;
+}
+.bottom-container ul li{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    border-right: 2px solid;
+    padding: 0px 10px;
+}
+.bottom-container ul li:last-child{
+    border: none;
+}
+.bottom-container ul li a{
+    text-decoration: none;
+}
+.register-button{
+    background:linear-gradient(90deg, #2d2561,#8f1287);
+    padding: 20px;
+    border-radius: 20px;
+}
+.register-button a{
+    text-decoration: none;
+    color: white;
+}
+.logo-container,.content,.course-list{
+    margin: 20px;
+
+}
+.register-button{
+    margin-bottom: 80px;
+}
+.industry-news {
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 2px solid;
+    
+}
+
+.industry-news h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.news-item {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(128, 128, 128, 0.226);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%; 
+    
+}
+
+.news-item img {
+    width: 300px; 
+    height: auto;
+    object-fit: cover;
+    border-right: 1px solid #ddd;
+}
+
+.news-item div {
+    padding: 20px;
+    text-align: left;
+}
+
+.news-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 45px;
+}
+
+.read-more {
+    color: white;
+    padding: 20px;
+    background-color: rgb(228, 41, 150);
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.blog {
+    padding: 40px;
+    text-align: center;
+}
+
+.blog-posts {
+    display: flex;
+    
+}
+
+.post {
+    background-color: rgba(128, 128, 128, 0.226);
+    padding: 40px;
+    text-align: left;
+    border-right: 2px solid;
+}
+.post:last-child{
+    border: none;
+}
+.post p{
+    padding-bottom: 40px;
+}
+.logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 20px; 
+}
+
+.logos div {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.company-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.testimonials{
+    background: url(src/colorful-crystal-background-qndhplpj9aixnkey-qndhplpj9aixnkey.jpeg);
+    height: 350px;
+    padding: 40px;
+    text-align: center;
+
+}
+.testimonials h2{
+    padding-bottom: 20px;
+}
+.testimonials-videos img{
+    width: 300px;
+    height: 250px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+}
+.social-media p{
+    padding-right: 10px;
+}
+.social-media a{
+    padding-right: 10px;
+}
+footer{
+    padding: 20px;
+}
+footer h3{
+    background-color: #da107c;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+footer h3 a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius:20px ;
+    padding-left: 20px;
+}
+ul li a:hover{
+    color: white;
+    font-weight: 700;
+}
+body{
+    margin: 10px 40px;
+}
