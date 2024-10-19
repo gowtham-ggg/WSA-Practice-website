@@ -55,6 +55,9 @@ nav ul li a{
 }
 .course-list ul li a{
     text-decoration: none;
+    font-size: 22px;
+    color: navy;
+    font-weight: 700;
 }
 .bottom-container ul{
     display: flex;
@@ -71,6 +74,9 @@ nav ul li a{
 }
 .bottom-container ul li a{
     text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
 }
 .register-button{
     background:linear-gradient(90deg, #2d2561,#8f1287);
@@ -86,7 +92,7 @@ nav ul li a{
 
 }
 .register-button{
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
  h2{
     font-weight: 600;
@@ -272,7 +278,7 @@ footer h3 a{
     padding: 10px;
     font-weight: 700;
 }
-ul li a:hover{
+.hover ul li a:hover{
     color: white;
     font-weight: 700;
 }
