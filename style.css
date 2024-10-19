@@ -20,7 +20,7 @@ nav ul li{
     list-style: none;
 }
 nav ul li a{
-    color: #da107c;
+    color: #ec0d78;
 }
 .first-container{
     background: url(src/background.jpeg);
@@ -33,7 +33,7 @@ nav ul li a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 100%;
 }
 .content h1{
     font-weight: 500;
@@ -88,12 +88,19 @@ nav ul li a{
 .register-button{
     margin-bottom: 80px;
 }
+ h2{
+    font-weight: 600;
+    font-size: 30px;
+}
 .industry-news {
-    width: 100%;
-    padding: 40px;
+    width: 90%;
     text-align: center;
-    border-bottom: 2px solid;
-    
+    margin: 0 auto;
+}
+hr {
+    width: 80%;
+    border: 1px solid #3333338c;
+    margin: 0 auto; /* This centers the hr */
 }
 
 .industry-news h2 {
@@ -154,20 +161,19 @@ nav ul li a{
     
 }
 .blog {
-    padding: 40px;
     text-align: center;
 }
 
 .blog-posts {
     display: flex;
-    
 }
 
 .post {
     background-color: rgba(128, 128, 128, 0.226);
-    padding: 40px;
+    padding: 30px;
     text-align: left;
-    border-right: 2px solid;
+    border-right: 1px solid #3333336c;
+    margin: 10px 0;
 }
 .post:last-child{
     border: none;
@@ -175,31 +181,48 @@ nav ul li a{
 .post p{
     padding-bottom: 40px;
 }
-.logos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+.main-logo-container {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    justify-items: center;
-    padding: 20px; 
+    box-shadow: 0 -3px 5px 0 rgba(128, 128, 128, 0.3);
+
+
 }
 
-.logos div {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    padding: 20px;
+.inner-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .company-logo {
+    width: 100%; 
+    padding: 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    
+}
+
+.logo1, .logo4 {
+    background-color: #e5e5e5;
+    flex: 1; 
+}
+
+.logo2, .logo3 {
+    background-color: #ffff;
+    flex: 1; 
+}
+
+.company-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; 
 }
 
 .companies h2 {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .testimonials{
@@ -232,20 +255,22 @@ nav ul li a{
 .social-media a{
     padding-right: 10px;
 }
-footer{
-    padding: 20px;
-}
+
 footer h3{
-    background-color: #da107c;
-    padding: 10px;
+    background-color: #ec0d78;
+    padding: 20px;
     margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
 }
 footer h3 a{
     text-decoration: none;
     background-color: white;
     color: black;
     border-radius:20px ;
-    padding-left: 20px;
+    padding: 10px;
+    font-weight: 700;
 }
 ul li a:hover{
     color: white;
